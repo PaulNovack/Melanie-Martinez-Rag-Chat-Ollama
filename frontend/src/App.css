@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.chat-window {
+  width: 900px;
+  height: 650px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  scroll-behavior: auto;
+}
+
+.chat-message {
+  text-align: left;
+  white-space: pre-wrap; /* Preserve whitespace and line breaks */
+  font-size:16px;
+}
+
+input {
+  width: 700px;
+  padding: 5px;
+  margin-right: 5px;
+  font-size:16px;
+}
+
+button {
+  padding: 5px 10px;
+  font-size:16px;
+}
