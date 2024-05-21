@@ -28,6 +28,10 @@ What songs are on the album Cry Baby?
 
 When was Melanie Martinez born?
 
+How old is Melanie Martinez?
+
+What is Melanie Martinez Middle name?
+
 Depending on your system it may take a while for response.
 
 On my system with no GPU it takes about 3 to 8 seconds for a response.
