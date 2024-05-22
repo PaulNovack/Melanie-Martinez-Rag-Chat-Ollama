@@ -1,5 +1,7 @@
 **Chatbot using qdrant vector DB and ollama to run llm**
 
+![chat image](https://github.com/PaulNovack/Melanie-Martinez-Rag-Chat-Ollama/blob/main/img.png?raw=true)
+
 *llama3 LLM Model*
 
 *nomic-embed-text Embedding Model*
@@ -56,4 +58,4 @@ You could edit questions and answers to answer questions and answers for whateve
 
 Just need to follow format in /backend/Melanie.json or change filename in the code
 
-![chat image](https://github.com/PaulNovack/Melanie-Martinez-Rag-Chat-Ollama/blob/main/img.png?raw=true)
+
