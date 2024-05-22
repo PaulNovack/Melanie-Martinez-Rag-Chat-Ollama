@@ -1,3 +1,11 @@
+**Chatbot using qdrant vector DB and ollama to run llm**
+
+*llama3 LLM Model*
+
+*nomic-embed-text Embedding Model*
+
+Models can be configured in config.ini but they must be added with: docker exec ollama2 ollama pull llama3
+
 You must have pip and python 3 installed.
 
 python 3 should be executable as python3
@@ -7,6 +15,10 @@ pip should be executable as "pip"
 Requires docker installed
 
 Requires nodejs and npm installed
+
+!! The start script will run Docker prune and stop all containers
+!! If you have other docker containers you do not want stopped edit the
+!! ./startAll.sh script first!
 
 run ./startAll.sh
 
