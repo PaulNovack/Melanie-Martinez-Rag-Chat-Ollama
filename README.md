@@ -36,4 +36,8 @@ Depending on your system it may take a while for response.
 
 On my system with no GPU it takes about 3 to 8 seconds for a response.
 
+You could edit questions and answers to answer questions and answers for whatever topic you prefer.
+
+Just need to follow format in /backend/Melanie.json or change filename in the code
+
 ![chat image](https://github.com/PaulNovack/Melanie-Martinez-Rag-Chat-Ollama/blob/main/img.png?raw=true)
