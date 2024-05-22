@@ -16,9 +16,13 @@ Requires docker installed
 
 Requires nodejs and npm installed
 
-!! The start script will run Docker prune and stop all containers
-!! If you have other docker containers you do not want stopped edit the
-!! ./startAll.sh script first!
+**The start script will run Docker prune and stop all containers**
+
+If you have other docker containers you do not want stopped edit the
+
+./startAll.sh 
+
+script first!
 
 run ./startAll.sh
 
