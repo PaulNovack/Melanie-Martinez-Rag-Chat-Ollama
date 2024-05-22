@@ -48,7 +48,7 @@ function App() {
 
     return (
         <div className="App">
-            <h1>Melanie Martinez Chat</h1>
+            <h1>Melanie Martinez Chat / Dementia and The Rolling Stones Chat</h1>
             <div className="chat-window" ref={chatWindowRef}>
                 <pre className="chat-message">{messages}</pre> {/* Display the entire message string */}
             </div>

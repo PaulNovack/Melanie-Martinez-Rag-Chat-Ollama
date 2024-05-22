@@ -3914,5 +3914,159 @@
         "question": "How does smoking cessation impact dementia risk in older adults?",
         "answer": "Older adults who quit smoking can still see significant benefits, including reduced risk of cognitive decline and improved overall health.",
         "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3349372/"
+    },
+
+    {
+        "question": "At what age does dementia typically begin to appear?",
+        "answer": "Dementia most commonly affects people over the age of 65, but early-onset dementia can occur in people as young as their 30s, 40s, or 50s.",
+        "url": "https://www.alz.org/alzheimers-dementia/what-is-dementia/early-onset-dementia"
+    },
+    {
+        "question": "What is early-onset dementia?",
+        "answer": "Early-onset dementia refers to dementia that occurs in individuals younger than 65 years old. It can start as early as in the 30s, 40s, or 50s.",
+        "url": "https://www.alzheimers.org.uk/about-dementia/types-dementia/younger-people-with-dementia"
+    },
+    {
+        "question": "What age group is most at risk for Alzheimer's disease?",
+        "answer": "Alzheimer's disease most commonly affects individuals over the age of 65, with risk increasing significantly as people age.",
+        "url": "https://www.nia.nih.gov/health/alzheimers-disease-fact-sheet"
+    },
+    {
+        "question": "How does the risk of dementia change with age?",
+        "answer": "The risk of developing dementia doubles approximately every five years after the age of 65.",
+        "url": "https://www.dementia.org.au/about-dementia/dementia-statistics"
+    },
+    {
+        "question": "Can younger people get dementia?",
+        "answer": "Yes, although it's less common, younger people can develop dementia. This is known as early-onset or younger-onset dementia.",
+        "url": "https://www.alz.org/helpsupport/caregiving/caregiver-health/younger-onset"
+    },
+    {
+        "question": "What are the signs of dementia in younger individuals?",
+        "answer": "Signs of dementia in younger individuals can include memory loss, confusion, difficulty with language, and changes in personality or behavior.",
+        "url": "https://www.nhs.uk/conditions/dementia/about/"
+    },
+    {
+        "question": "What is the average age of dementia diagnosis?",
+        "answer": "The average age of dementia diagnosis is around 80 years old, but it can vary widely depending on the type of dementia and individual health factors.",
+        "url": "https://www.alzheimers.org.uk/about-dementia/types-dementia/how-dementia-progresses"
+    },
+    {
+        "question": "Is dementia more common in older adults?",
+        "answer": "Yes, dementia is more common in older adults, particularly those over the age of 65. The risk increases significantly with age.",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/dementia"
+    },
+    {
+        "question": "What percentage of people over 85 have dementia?",
+        "answer": "Approximately one-third of people aged 85 and older have some form of dementia.",
+        "url": "https://www.cdc.gov/aging/aginginfo/alzheimers.htm"
+    },
+    {
+        "question": "Can lifestyle changes delay the onset of dementia in older adults?",
+        "answer": "Yes, maintaining a healthy lifestyle, including regular exercise, a balanced diet, and mental and social activities, can help delay the onset of dementia.",
+        "url": "https://www.alzheimers.org.uk/about-dementia/risk-factors-and-prevention/lifestyle-changes"
+    },
+
+    {
+        "question": "What is constipation?",
+        "answer": "Constipation is a condition characterized by infrequent bowel movements or difficulty passing stools.",
+        "url": "https://www.mayoclinic.org/diseases-conditions/constipation/symptoms-causes/syc-20354268"
+    },
+    {
+        "question": "At what age does constipation typically begin in adults?",
+        "answer": "Constipation can affect adults at any age, but it is more common in people over the age of 65.",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4707790/"
+    },
+    {
+        "question": "Can children experience constipation?",
+        "answer": "Yes, children can experience constipation, which is often related to dietary habits, toilet training, or stress.",
+        "url": "https://www.healthychildren.org/English/health-issues/conditions/abdominal/Pages/Constipation.aspx"
+    },
+    {
+        "question": "What are common causes of constipation in older adults?",
+        "answer": "Common causes include a low-fiber diet, inadequate fluid intake, lack of physical activity, and certain medications.",
+        "url": "https://www.health.harvard.edu/diseases-and-conditions/constipation-in-older-adults"
+    },
+    {
+        "question": "How is constipation diagnosed?",
+        "answer": "Diagnosis typically involves a medical history review, physical examination, and sometimes additional tests like blood tests or colonoscopy.",
+        "url": "https://www.mayoclinic.org/diseases-conditions/constipation/diagnosis-treatment/drc-20354285"
+    },
+    {
+        "question": "Can infants suffer from constipation?",
+        "answer": "Yes, infants can suffer from constipation, often due to changes in diet or hydration levels.",
+        "url": "https://www.mayoclinic.org/diseases-conditions/constipation/expert-answers/constipation-in-babies/faq-20058519"
+    },
+    {
+        "question": "What lifestyle changes can help prevent constipation in older adults?",
+        "answer": "Increasing fiber intake, drinking plenty of fluids, and regular physical activity can help prevent constipation.",
+        "url": "https://www.nia.nih.gov/news/constipation-common-aging-heres-how-prevent-it"
+    },
+    {
+        "question": "What are the symptoms of constipation?",
+        "answer": "Symptoms include infrequent bowel movements, hard or lumpy stools, straining during bowel movements, and a feeling of incomplete evacuation.",
+        "url": "https://www.cdc.gov/ncbddd/constipation/facts.html"
+    },
+    {
+        "question": "Is constipation more common in men or women?",
+        "answer": "Constipation is more common in women, particularly during pregnancy and after childbirth.",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5331431/"
+    },
+    {
+        "question": "Can constipation be a sign of a more serious health condition?",
+        "answer": "Yes, chronic constipation can sometimes indicate underlying health issues like bowel obstruction or colorectal cancer.",
+        "url": "https://www.webmd.com/digestive-disorders/ss/slideshow-serious-causes-of-constipation"
+    },
+    {
+        "question": "What age group is most affected by constipation?",
+        "answer": "Constipation can affect any age group, but it is most prevalent among older adults, especially those over the age of 65.",
+        "url": "https://www.health.harvard.edu/diseases-and-conditions/constipation-in-older-adults"
+    },
+    {
+        "question": "Can diet influence constipation?",
+        "answer": "Yes, a diet low in fiber and high in processed foods can contribute to constipation.",
+        "url": "https://www.mayoclinic.org/diseases-conditions/constipation/in-depth/constipation/ART-20045945"
+    },
+    {
+        "question": "What role does hydration play in preventing constipation?",
+        "answer": "Adequate hydration is crucial as it helps keep the stool soft and easier to pass.",
+        "url": "https://www.healthline.com/health/constipation"
+    },
+    {
+        "question": "Are there medications that can cause constipation?",
+        "answer": "Yes, certain medications like opioids, antidepressants, and iron supplements can cause constipation.",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3774502/"
+    },
+    {
+        "question": "Can stress and anxiety lead to constipation?",
+        "answer": "Yes, stress and anxiety can affect bowel habits and lead to constipation.",
+        "url": "https://www.verywellhealth.com/stress-and-the-digestive-system-1945329"
+    },
+    {
+        "question": "What is the difference between acute and chronic constipation?",
+        "answer": "Acute constipation is a short-term issue, often due to temporary dietary changes or stress. Chronic constipation is a long-term problem that requires medical attention.",
+        "url": "https://www.mayoclinic.org/diseases-conditions/constipation/symptoms-causes/syc-20354268"
+    },
+    {
+        "question": "Can exercise help alleviate constipation?",
+        "answer": "Yes, regular exercise can help stimulate intestinal function and reduce the risk of constipation.",
+        "url": "https://www.webmd.com/digestive-disorders/ss/slideshow-relieve-constipation"
+    },
+    {
+        "question": "How does fiber help with constipation?",
+        "answer": "Fiber adds bulk to the stool and helps it pass more easily through the intestines.",
+        "url": "https://www.eatright.org/health/wellness/preventing-illness/fiber-its-vital"
+    },
+    {
+        "question": "Are there natural remedies for constipation?",
+        "answer": "Yes, natural remedies include increasing dietary fiber, staying hydrated, and regular physical activity.",
+        "url": "https://www.healthline.com/nutrition/natural-constipation-remedies"
+    },
+    {
+        "question": "What are the complications of untreated constipation?",
+        "answer": "Complications can include hemorrhoids, anal fissures, rectal prolapse, and fecal impaction.",
+        "url": "https://www.mayoclinic.org/diseases-conditions/constipation/symptoms-causes/syc-20354268"
     }
+
+
 ]
