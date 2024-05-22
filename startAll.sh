@@ -1,4 +1,16 @@
 #!/bin/bash
+echo "Listing all containers..."
+docker ps -a
+# Stop all running containers
+echo "Stopping all running containers..."
+docker stop $(docker ps -q)
+# Remove all stopped containers
+echo "Removing all stopped containers..."
+docker rm $(docker ps -a -q)
+# Prune the system (remove all unused data)
+echo "Pruning the system..."
+docker system prune -f
+echo "All containers stopped and pruned successfully."
 docker pull ollama/ollama:latest
 mkdir ollama-models
 docker run -d -p 11434:11434 --name ollama2 -v $(pwd)/ollama-models:/ollama/models ollama/ollama:latest
@@ -13,7 +25,7 @@ pip install nltk
 pip install ollama
 pip install mattsollamatools
 python3 ImportMelanieJson.py
-python3 wsServer.py
+python3 wsServer.py &
 cd ..
 cd frontend
 npm install
