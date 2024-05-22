@@ -6,7 +6,6 @@ docker exec ollama2 ollama pull llama3
 docker exec ollama2 ollama pull nomic-embed-text
 docker pull qdrant/qdrant
 docker run -p 6333:6333 -v $(pwd)/qdrant_storage:/qdrant/storage:z qdrant/qdrant &
-sleep 20
 cd backend
 source .venv/activate
 pip install -r requirements.txt
