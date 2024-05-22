@@ -1,6 +1,10 @@
 **Chatbot using qdrant vector DB and ollama to run llm**
 
+**Runs Completely locally no internet connection required**
+
 ![chat image](https://github.com/PaulNovack/Melanie-Martinez-Rag-Chat-Ollama/blob/main/img.png?raw=true)
+
+![chat image2](https://github.com/PaulNovack/Melanie-Martinez-Rag-Chat-Ollama/blob/main/img_1.png?raw=true)
 
 *llama3 LLM Model*
 
