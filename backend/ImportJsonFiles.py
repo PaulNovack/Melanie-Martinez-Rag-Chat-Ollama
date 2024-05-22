@@ -32,8 +32,9 @@ for file in files:
     answers = []
     questions = []
     for qa in dataJson:
-        question = qa['question']
-        answer = qa["answer"]
+        question = qa.get("question", None)
+        answer = qa.get("answer", None)
+        url = qa.get("url", None)
         if qa['question'] not in questions:
             try:
                 embed = ollama.embeddings(model=embedmodel, prompt=question)['embedding']
@@ -44,6 +45,7 @@ for file in files:
                         payload={
                             "text": answer,
                             "question": question,
+                            "url": url,
                             "topic": collectionname,
                             "metadata": {"source": "JSON"}
                         }
@@ -54,6 +56,7 @@ for file in files:
                     points=points
                 )
                 key = key + 1
+                print(collectionname + ' ' + str(key))
                 embed = ollama.embeddings(model=embedmodel, prompt=answer)['embedding']
                 points = [
                     PointStruct(
@@ -62,7 +65,8 @@ for file in files:
                         payload={
                             "text": answer,
                             "question": answer,
-                            "topic": "Melanie_Martinez",
+                            "url": url,
+                            "topic": collectionname,
                             "metadata": {"source": "JSON"}
                         }
                     )
@@ -72,6 +76,7 @@ for file in files:
                     points=points
                 )
                 key = key + 1
+                print(collectionname + ' ' + str(key))
             except Exception as e:
                 print(f"Error processing chunk {question}: {answer} {e}")
         answers.append(qa['answer'])

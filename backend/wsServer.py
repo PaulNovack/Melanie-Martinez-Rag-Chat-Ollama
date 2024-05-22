@@ -57,6 +57,7 @@ async def echo(websocket, path):
     keep_alive_task = asyncio.create_task(send_keep_alive_ping(websocket))
     try:
         async for query in websocket:
+            goturl = False
             queryNew = query.split('|')
             collectionname = queryNew[0]
             query = queryNew[1]
@@ -65,12 +66,18 @@ async def echo(websocket, path):
             relevantdocs = client.search(
                 collection_name=collectionname,
                 query_vector=queryembed,
-                limit=50  # Number of results to retrieve
+                limit=35  # Number of results to retrieve
             )
             context = ''
             answers = []
+            urls = []
             docnumber = 1
             for doc in relevantdocs:
+                url = doc.payload.get('url', None)
+                if url is not None:
+                    goturl = True;
+                if url not in urls:
+                    urls.append(url)
                 answer = doc.payload.get('text') + '\n'
                 if answer not in answers:
                     context += answer
@@ -78,6 +85,7 @@ async def echo(websocket, path):
                 answers.append(answer)
                 if docnumber >= 20:
                     break
+                #context += '\n\n\n'
             print(context)
             prompt = f"""
                         Heres context: {context}
@@ -107,6 +115,18 @@ async def echo(websocket, path):
                     simple_string = ''.join(result)
                     print(simple_string, end='', flush=True)
                     await websocket.send(f"{simple_string}")
+            ur = '['
+            urlNum = 0
+            for url in urls:
+              ur += '"' + url + '",'
+              urlNum += 1
+              if urlNum == 5:
+                  break
+            ur = ur.rstrip(',')
+            ur = ur + ']'
+            if goturl:
+                await websocket.send("\n\nHere are some helpful links:\n")
+                await websocket.send(f"~URLS~{ur}")
             await websocket.send(f"~END~")
             print('\n')
     except websockets.ConnectionClosedError as e:
@@ -119,7 +139,7 @@ async def echo(websocket, path):
 
 async def main():
     async with websockets.serve(echo, "0.0.0.0", 8765):
-        await asyncio.Future()  # Run forever
+        await asyncio.Future()
 
 if __name__ == "__main__":
     asyncio.run(main())
