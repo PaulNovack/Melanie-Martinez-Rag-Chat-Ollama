@@ -24,8 +24,8 @@ pip install -r requirements.txt
 pip install nltk
 pip install ollama
 pip install mattsollamatools
-python3 ImportMelanieJson.py
-python3 wsServer.py &
+python3 ImportJsonFiles.py
+python3 wsServer.py
 cd ..
 cd frontend
 npm install

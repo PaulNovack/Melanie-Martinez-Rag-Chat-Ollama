@@ -6,6 +6,7 @@ function App() {
     const [input, setInput] = useState('');
     const ws = useRef(null);
     const chatWindowRef = useRef(null);
+    const chatTopicRef = useRef(null);
 
     useEffect(() => {
         // Replace with your WebSocket server URL
@@ -33,7 +34,7 @@ function App() {
 
     const sendMessage = () => {
         if (input && ws.current) {
-            ws.current.send(input);
+            ws.current.send(chatTopicRef.current.valueOf().value + "|" + input);
             setMessages((prevMessages) => prevMessages + 'Me: ' + input + '\n\n');
                 setInput('');
             scrollToBottom();
@@ -48,7 +49,8 @@ function App() {
 
     return (
         <div className="App">
-            <h1>Melanie Martinez Chat / Dementia and The Rolling Stones Chat</h1>
+            <h1>Chat for Topic:</h1>
+            <input className={'topicInput'} ref={chatTopicRef}  defaultValue={'Melanie_Martinez'}/>
             <div className="chat-window" ref={chatWindowRef}>
                 <pre className="chat-message">{messages}</pre> {/* Display the entire message string */}
             </div>
