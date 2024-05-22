@@ -65,14 +65,14 @@ async def echo(websocket, path):
                 context += answer
                 docnumber += 1
             answers.append(answer)
-            if docnumber >= 15:
+            if docnumber >= 20:
                 break
         print(context)
         prompt = f"""
                     Heres context: {context}
                     Using the relevant information from the context
                     provide an answer as an assistant to the question: {query}.
-                    If the context does not contain the knowledge reply only with \"I don't have that information\"
+                    If the context does not contain the knowledge reply only with \"I don't have that information or you can ask me a specific question about an album etc.\"
                     """
 
         stream = ollama.generate(model=mainmodel, prompt=prompt, stream=True)
@@ -100,7 +100,7 @@ async def echo(websocket, path):
         await websocket.send(f"~END~")
 
 async def main():
-    async with websockets.serve(echo, "localhost", 8765):
+    async with websockets.serve(echo, "0.0.0.0", 8765):
         await asyncio.Future()  # Run forever
 
 if __name__ == "__main__":
