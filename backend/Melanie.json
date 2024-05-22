@@ -3863,8 +3863,56 @@
         "question": "Is dementia hereditary?",
         "answer": "Some types of dementia, such as early-onset Alzheimer's disease, have a genetic component, but not all dementia is hereditary.",
         "url": "https://www.nia.nih.gov/health/understanding-alzheimers-genetic-link"
+    },
+
+    {
+        "question": "Does smoking increase the risk of dementia?",
+        "answer": "Yes, smoking is a significant risk factor for dementia, including Alzheimer's disease and vascular dementia.",
+        "url": "https://www.alz.org/help-support/caregiving/safety/smoking-and-alzheimers"
+    },
+    {
+        "question": "How does smoking affect brain health?",
+        "answer": "Smoking damages blood vessels, reducing blood flow to the brain, which can lead to cognitive decline and dementia.",
+        "url": "https://www.health.harvard.edu/blog/smoking-and-dementia-2016121210855"
+    },
+    {
+        "question": "Can quitting smoking reduce the risk of dementia?",
+        "answer": "Yes, quitting smoking can lower the risk of cognitive decline and improve overall brain health.",
+        "url": "https://www.cdc.gov/tobacco/campaign/tips/diseases/dementia.html"
+    },
+    {
+        "question": "What is the relationship between smoking and Alzheimer's disease?",
+        "answer": "Smoking has been linked to an increased risk of Alzheimer's disease due to its impact on cardiovascular health and brain function.",
+        "url": "https://www.alzheimers.org.uk/about-dementia/risk-factors-and-prevention/smoking"
+    },
+    {
+        "question": "Does secondhand smoke affect dementia risk?",
+        "answer": "Exposure to secondhand smoke can increase the risk of developing dementia and other cognitive impairments.",
+        "url": "https://www.nia.nih.gov/news/secondhand-smoke-may-increase-risk-dementia"
+    },
+    {
+        "question": "How does smoking interact with other dementia risk factors?",
+        "answer": "Smoking can exacerbate other dementia risk factors, such as hypertension, diabetes, and cardiovascular diseases, further increasing the risk.",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/dementia"
+    },
+    {
+        "question": "What are the long-term effects of smoking on cognitive function?",
+        "answer": "Long-term smoking can lead to significant cognitive decline, memory loss, and an increased risk of dementia.",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5842346/"
+    },
+    {
+        "question": "Are there specific toxins in cigarettes that affect brain health?",
+        "answer": "Cigarettes contain toxins like nicotine and tar that can damage brain cells and blood vessels, contributing to cognitive decline.",
+        "url": "https://www.alzinfo.org/articles/prevention/smoking-and-alzheimers-disease/"
+    },
+    {
+        "question": "What are the benefits of quitting smoking for brain health?",
+        "answer": "Quitting smoking improves blood circulation, reduces inflammation, and lowers the risk of cognitive decline and dementia.",
+        "url": "https://www.alzheimers.org.uk/about-dementia/risk-factors-and-prevention/smoking-and-dementia"
+    },
+    {
+        "question": "How does smoking cessation impact dementia risk in older adults?",
+        "answer": "Older adults who quit smoking can still see significant benefits, including reduced risk of cognitive decline and improved overall health.",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3349372/"
     }
-
-
-
 ]
