@@ -40,6 +40,8 @@ Then qdrant will be installed in a docker container and started
 
 Then the json melanie martinez data will be imported
 
+Data files are in the format question and answer in json see the topic_data folder for some examples
+
 Then the wsServer.py with be started
 
 Finally a Browser window will open which you can ask questions like:
