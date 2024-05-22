@@ -10,7 +10,7 @@
 
 *nomic-embed-text Embedding Model*
 
-Models can be configured in config.ini but they must be added with: docker exec ollama2 ollama pull llama3
+Models can be configured in config.ini but they must be added with: docker exec ollama2 ollama pull <Model Name>
 
 You must have pip and python 3 installed.
 
